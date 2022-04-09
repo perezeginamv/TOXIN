@@ -1,0 +1,45 @@
+.logo {
+   width: 10.8rem;
+   height: 4rem; 
+
+   &-link {       
+       text-decoration: none;
+        &__text {
+            position: relative;
+            padding-right: 0.08rem;
+            padding-top: 0.05rem;                    
+            &::after {
+                content: "";
+                width: 2rem;              
+                height: 2rem;
+                position: absolute;        
+                background-image: url(/src/Ul_kit/logo/image/Vector.svg);                
+                object-fit: cover;
+                background-repeat: no-repeat;
+                left: 0.5rem;
+                top: 1.5rem
+            }
+            font-family: 'NewFont';
+            color: #1F2041;
+            font-size: 1.7rem;
+            display: flex;
+            align-items: center;
+            display: flex;
+            justify-content: space-between;            
+            &::before {
+                content: "";
+                display: inline-block;
+                width: 3.2rem;
+                height: 3.2rem;               
+                border-radius: 50%;
+                border: 0.4rem solid rgb(188,156,255);
+                vertical-align: middle;
+                background-image: url(/src/Ul_kit/logo/image/Vector-1.svg);
+                background-repeat: no-repeat;
+                background-position: 1.6rem;
+                background-position-y: 1.1rem;
+                          
+            }
+        }     
+    }
+}

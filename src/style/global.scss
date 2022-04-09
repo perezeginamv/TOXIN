@@ -1,0 +1,41 @@
+$white: #fff;
+$bg-gradient: linear-gradient(139deg, rgba(188,156,255,1) 0%, rgba(139,164,249,1) 100%);
+@font-face {
+    font-family: 'NewFont';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../Ul_kit/logo/fonts/fonts/NewFont\ Regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../Ul_kit/logo/fonts/fonts/NewFont\ Regular.otf') format('embedded-opentype'), /* IE6-IE8 */
+         url('../Ul_kit/logo/fonts/fonts/NewFont\ Regular.woff') format('woff'), /* Modern Browsers */
+         url('../Ul_kit/logo/fonts/fonts/NewFont\ Regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../Ul_kit/logo/fonts/fonts/NewFont\ Regular.svg') format('svg'); /* Legacy iOS */
+  }
+ a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+  }
+
+html {
+    font-size: 10px;
+    background-color: rgb(180, 196, 196);
+     
+}
+button {
+    &:focus {
+        outline: none;
+    }
+}
+
+.container {
+    width: 116rem;
+    padding: 0 2rem;
+    margin: 0 auto;
+
+ }
+
+
+
